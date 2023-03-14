@@ -1198,6 +1198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 505b999af8f1b49048fe163d04dd726f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationChange: 0
 --- !u!65 &1684423169
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1505,7 +1506,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inclinationChange: 0.1
-  positionChange: {x: 0, y: 0, z: 0}
 --- !u!1001 &2133247944
 PrefabInstance:
   m_ObjectHideFlags: 0

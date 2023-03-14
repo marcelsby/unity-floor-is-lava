@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class RotateCube : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int rotationChange;
 
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Vector3.up, 2f);
-        transform.Rotate(Vector3.left, 2f);
+        transform.Rotate(new Vector3(0, rotationChange, rotationChange));
     }
 }
